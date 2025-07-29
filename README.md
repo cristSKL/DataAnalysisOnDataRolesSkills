@@ -37,7 +37,7 @@ plt.show()
 
 
 ### Results
-![Visualization of Top Skills for Data Role in Indonesia](images\skill_demands.png)
+![Visualization of Top Skills for Data Role in Indonesia](images/skill_demands.png)
 
 ### Insights
 - SQL is the most sought after skill for data roles in Indonesia, with a 49% demand in Data Analyst positions and 57% demand in Data Engineering roles.
