@@ -82,7 +82,7 @@ plt.show()
 ```
 
 ### Results
-![Trending Top Skills for Data Engineer in Indonesia](images\skill_trending_permonth.png)
+![Trending Top Skills for Data Engineer in Indonesia](images/skill_trending_permonth.png)
 
 ### Insights
 - SQL remained the most consistently in demand skill for Data Engineer throughout the year, although it shows a gradual decline in demand
@@ -113,7 +113,7 @@ plt.show()
 
 ### Result
 
-![Salary Distribution for Top Data Role in Indonesia](images\salary_distribution.png)
+![Salary Distribution for Top Data Role in Indonesia](images/salary_distribution.png)
 
 ### Insight
 - Business Analyst have the lowest median salary among the data roles in Indonesia, which may suggest that roles requiring stronger technical or programming skills are generally more highly valued in terms of compensation
@@ -153,7 +153,7 @@ plt.show()
 ```
 
 ### Result
-![Salary Distribution for Top Data Role in Indonesia](images\salary_vs_mostdemand.png)
+![Skill Demand vs Salary Comparison](images/salary_vs_mostdemand.png)
 
 ### Insight
 - While Python and SQL are not among the highest-paying skills, they are by far the most in demand, appearing in 20 and 21 job listings respectively. This makes them essential foundational skills and a smart starting point for anyone entering the data field.
