@@ -1,3 +1,28 @@
+# Overview
+
+Welcome to my analysis of the data job market in Indonesia. This project was created to help navigate and understand the market more effectively. It delves into the most popular data roles in Indonesia, identifies the highest-paying and most in-demand skills. Based on that, I will try to determine the most optimal skill to learn for entering a data related role in Indonesia.
+
+The data sourced from [Luke Barousse's Python Course](https://huggingface.co/datasets/lukebarousse/data_jobs) which provides a foundation for my analysis, containing detailed information on job titles, salaries, location, and essential skills. Through a series of python scripts, i explore key question such as the most demanded skills, salary trends, and the most optimal skill based on demand and payment.
+
+# The Questions
+
+Bellow are the questions i want to answer in my project:
+
+1. what are the most demanded skills for the top 3 most popular data roles in Indonesia?
+2. How in demand are skills trending for Data Engineer in Indonesia?
+3. How well do top data jobs pay in Indonesia? Based on thiss, what is the most optimal skill to learn?
+
+# Tools I Used
+
+for my deep dive into the data job market in Indonesia, i harnessed the power of several key tools:
+- **Python**: The backbone of my analysis, allowing me to analyze the data and find critical insight. I also used the following python libraries:
+    - **Pandas Library**: This was used to analyze the data.
+    - **Matplotlib Library**: This was used to visualized the data.
+    - **Seaborn Library**: Helped me create more advanced visuals.
+- **Visual Studio Code**: The code editor
+- **Jupyter Notebooks**: The tool i used to run my Python scripts which let me easily include my notes and analysis.
+- **Git & Github**: Essential for version control and sharing my python code and analysis.
+
 # The Analysis
 
 ## 1. what are the most demanded skills for the top 3 most popular data roles in Indonesia?
@@ -44,7 +69,7 @@ plt.show()
 - Python is a versatile skill with high demand across all of the top 3 data roles in Indonesia, even surpassing SQL in demand for Data Scientist positions.
 - Data Engineers require broader cloud and big data skills. Skills like Spark (23%), AWS (22%), and Hadoop(20%) show that Data Engineer roles emphasize distributed computing and cloud infrastructure.
 
-## 2. How are in demand skills trending for Data Engineer in Indonesia?
+## 2. How in demand are skills trending for Data Engineer in Indonesia?
 
 To find the monthly trend of in demand skills for Data Engineer in Indonesia, I first explode the job skill column in the dataframe. Then i pivoted the table to organize the data by job skill and the month the job was posted. To calculate the percentage values, i grouped the data by month to get the total job postings for each month, and then divided each skill's count by the corresponding m onthly total.
 
@@ -89,7 +114,7 @@ plt.show()
 - Python showed a steady increase in demand throughout the year. Although there was a dim in September, demand surged significantly by year end. It even has the potential to overtake SQL as the most in demand skill for Data Engineer in the future
 - Hadoop showed an overal decline, stabilizing at a lower demand level aftear peaking in February. This may reflect a shift away from traditional big data framework toward more modern cloud based or real time platforms. 
 
-## 3. How well do top data jobs pay in Indonesia?
+## 3. How well do top data jobs pay in Indonesia? Based on thiss, what is the most optimal skill to learn?
 
 To answer this question, I will break it down into two parts. First, I will identify the six most popular data roles in Indonesia by analyzing the number of job listings and their median annual salary distribution. Second, from these top six roles, I will compare the most in-demand skills with the highest-paying skills to determine which ones are the most worthwhile to learn.
 
@@ -159,3 +184,21 @@ plt.show()
 - While Python and SQL are not among the highest-paying skills, they are by far the most in demand, appearing in 20 and 21 job listings respectively. This makes them essential foundational skills and a smart starting point for anyone entering the data field.
 - Most of the highest-paying skills do not appear among the most in-demand, indicating that these skills are more specialized and niche. They are likely required for fewer, but more advanced or critical roles, which drives up compensation due to limited supply and higher expertise requirements.
 - Skills like Excel, Tableau, and R are relatively in demand in Indonesia, but they do not command the highest salaries compared to other skills. These skills are often associated with analyst roles, which are generally easier to fill and considered less technically intensive or critical than engineering or machine learning positions.
+
+# General Insights
+
+This project provided several general insight into the data job market in Indonesia:
+
+- **Optimal skill to learn**: To enter the data job market in Indonesia, it is highly recommended to learn both Python and SQL. Theese two skills are essential foundations and are amongst the mostin-demand across top data roles in the Country, compare to other skills. Many of these roles also offer pretty good salaries.
+- **Market Trends**: The data job market in Indonesia shows that skills with stronger technical capabilities are more highly valued and tend to be better paid. However, the highest paying skills are often quite niche and not in high demand.
+
+
+# Challenges I Faced
+
+this project was not without its challenges, but it provided good learning opportunities:
+
+- **Data Similarity**: Because data points in the Indonesian data job market often have similar values, it's challenging to assign distinct labels on a line chart.
+- **Complex Data Visualization**: Designing effective visual representations of complex datasets to convey insights clearly and compellingly was a challenge
+
+# Conclusion
+this exploration into the data job market in Indonesia has been incredibly informative, highlighting the critical skills and trends that shape this evolving field. The insight i gained enhanced my understanding and provide actionable guidance for anyone looking to enter the data job market in Indonesia. This project is a good foundation for future explorations and underscores the importance of continuous learning and adaptaion in the data field.
